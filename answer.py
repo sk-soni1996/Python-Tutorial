@@ -97,9 +97,9 @@ else:
     print(f"your password is: {v1} ")
 
 
-    """Calculate discount based on purchase amount."""
+"""Calculate discount based on purchase amount."""
 
-    amt=int(input("Enter Amount"))
+amt=int(input("Enter Amount"))
 if amt>=5000: 
     print(f"{amt-amt*0.15} you got discont of 15%")
 elif amt>=1500 and amt <5000:  
